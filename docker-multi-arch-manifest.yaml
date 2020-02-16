@@ -1,0 +1,11 @@
+image: vlakam/docker-telegram-bot-api-proxy:latest
+manifests:
+  - image: vlakam/docker-telegram-bot-api-proxy:amd64
+    platform:
+      architecture: amd64
+      os: linux
+  - image: vlakam/docker-telegram-bot-api-proxy:arm64
+    platform:
+      architecture: arm64
+      os: linux
+      variant: v8
